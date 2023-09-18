@@ -1,0 +1,41 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+
+}
+
+.portada{
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: aqua;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+
+  margin: 20px; 
+  padding: 10px;
+  background-color: rgb(54, 51, 51);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.widgets{
+  display: flex;
+  width: 100%;
+  
+}
